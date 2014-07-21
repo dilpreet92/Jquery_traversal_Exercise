@@ -1,6 +1,6 @@
 $(document).ready(function() {
   //Selecting all the image elements on the page
-	$("img").each(function() {
+  $("img").each(function() {
     console.log($(this).attr("alt"));
   });
 
